@@ -1,2 +1,2 @@
 # IA_DevOPS
-Projeto desenvolvido para a disciplina de IA e DevOps. O programa em Python coleta dados de temperatura de uma cidade durante vários dias, processa essas informações e gera recomendações de roupas de acordo com o clima (frio, agradável ou calor). O objetivo é aplicar lógica de programação, análise de dados e tomada de decisão automatizada.
+Repositório da disciplina de IA e DevOps contendo diversas atividades práticas e exercícios desenvolvidos ao longo do curso. Os projetos utilizam linguagens como Python para aplicar conceitos de lógica de programação, automação, processamento de dados e fundamentos de inteligência artificial integrados a práticas de desenvolvimento.
