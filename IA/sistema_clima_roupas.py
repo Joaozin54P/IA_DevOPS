@@ -16,6 +16,16 @@ def sugerir_roupa(temperatura):
         return "Está calor. Use camiseta, shorts ou roupa fresca."
 
 
+# Nova função: alerta climático
+def alerta_clima(temperatura):
+    if temperatura <= 5:
+        return "⚠ Alerta: Frio extremo! Use roupas bem quentes."
+    elif temperatura >= 35:
+        return "⚠ Alerta: Calor extremo! Beba bastante água e use protetor solar."
+    else:
+        return ""
+
+
 # Informar cidade
 cidade = input("Digite o nome da cidade: ")
 
@@ -30,10 +40,22 @@ for i in range(dias):
     temperaturas.append(temp)
 
     print("Sugestão de roupa:", sugerir_roupa(temp))
+
+    alerta = alerta_clima(temp)
+    if alerta != "":
+        print(alerta)
+
     print("-----------------------------")
+
 
 # Calcular média da temperatura
 media = sum(temperaturas) / len(temperaturas)
 
+# Nova funcionalidade: temperatura máxima e mínima
+temp_max = max(temperaturas)
+temp_min = min(temperaturas)
+
 print("\nCidade:", cidade)
-print("Média de temperatura:", media, "°C")
+print("Média de temperatura:", round(media, 2), "°C")
+print("Temperatura mais alta da viagem:", temp_max, "°C")
+print("Temperatura mais baixa da viagem:", temp_min, "°C")
