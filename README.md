@@ -66,7 +66,7 @@ Aplicação desenvolvida em Python que coleta informações de temperatura de um
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Joaozin54P/IA_DevOPS
+git clone https://github.com/SEU-USUARIO/IA_DevOPS.git
 ```
 
 2. Entre na pasta:
